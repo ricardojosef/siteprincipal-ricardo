@@ -1,0 +1,66 @@
+@font-face {
+    font-family: 'Sora-Bold';
+    src: url('Sora-Bold.otf') format('opentype'), url('Sora-Bold.ttf') format('truetype');
+    
+}
+@font-face{
+font-family:'Sora-Regular';
+    src: url('Sora-Regular.otf') format('opentype'), url('Sora-Regular.ttf') format('truetype');
+}
+body{
+    overflow-x: hidden;
+    margin:0px;
+}
+div#main{
+    display:flex;
+    flex-direction:row;
+    height: 100vh;
+}
+
+div#esquerda{
+    height:100%;
+    width:100%;
+    padding-left:30px;
+}
+div#direita{
+    height:100%;
+    width:100%;
+    background-image: url("ImagemPortfólioV1.png");
+    background-repeat: no-repeat;
+    background-size:cover;
+     
+}
+h1{
+    font-family: 'Sora-Bold';
+    font-size: 50px;
+    background-image: linear-gradient(90deg,#1E1267,#269EB9);
+    background-clip: text;
+    -webkit-background-clip: text; /* Necessário para compatibilidade com alguns navegadores */
+    color: transparent; /* Oculta a cor padrão do texto */
+    margin-top: 50px;
+}
+p{
+    font-family: 'Sora-Regular';
+    font-size: 18px;
+    line-height: 170%;
+    color: rgb(26, 26, 26);
+    text-align: left;
+    padding-left: 10px;
+    padding-right: 40px;
+    margin-top: -20px;
+    margin-bottom: 6px;
+}
+input[type="button"] {
+    cursor: pointer;
+    width: 150x;
+    margin-left: 10px;
+    padding: 20px;
+    border: solid 1px rgb(30, 18, 103);
+    border-radius: 6px;
+    margin-top: 15px;
+    font-family: 'Sora-Regular';
+    font-size: 14px;
+}
+p#contact{
+    margin-top: 25px;
+}
