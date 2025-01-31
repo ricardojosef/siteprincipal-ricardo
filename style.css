@@ -47,6 +47,26 @@ img#mobile{
 @media (max-width:767px){
     div#direita{
         display: none;
+        padding: 0px 
+        margin: 0px;
+    }
+    body{
+        padding-left:5px ;
+        padding-right:5px ;
+    }
+     div#esquerda{
+        padding: 0px ;
+        margin: 0px ;
+    }
+    h1{
+        font-size: 28px !important;
+    }
+    span#cursor{
+        visibility:hidden;
+    }
+    p{
+        margin-top: -4% !important;
+        text-align: left !important;
     }
 }
 
@@ -160,6 +180,7 @@ p#ipg{
     margin-top: 10px;
     font-size: 12px;
     text-align: right;
+    padding-right: 49px;
 }
 .links{
     text-decoration: none;
@@ -178,11 +199,7 @@ p#ipg{
     font-weight: bold;
 }
 
-@keyframes blinkCursor {
-    0% { opacity: 1; }
-    50% { opacity: 0;}
-    100% { opacity: 1; }
-}
+
 
   .linkproj{
     display: inline-block;
@@ -215,3 +232,9 @@ p#ipg{
       transform: translateY(0);
     }
   }
+  
+  @keyframes blinkCursor {
+    0% { opacity: 1; }
+    50% { opacity: 0;}
+    100% { opacity: 1; }
+}
