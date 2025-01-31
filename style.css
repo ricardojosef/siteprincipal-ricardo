@@ -1,7 +1,8 @@
 @font-face {
     font-family: 'Sora-Bold';
-    src: url('Sora-Bold.otf') format('opentype'), url('Sora-Bold.ttf') format('truetype'),url('Sora-Bold.woff') format('woff'),url('Sora-Bold.woff2') format('woff2');
-    
+    src: url('Sora-Bold.otf') format('opentype'), url('Sora-Bold.ttf') format('truetype'),url('Sora-Bold.woff') format('woff'), url('Sora-Bold.woff2') format('woff2');
+    font-weight: bold;
+    font-style: normal;
 }
 @font-face{
 font-family:'Sora-Regular';
@@ -125,8 +126,8 @@ h1{
     font-size: 50px;
     background-image: linear-gradient(90deg,#1E1267,#269EB9);
     background-clip: text;
-    -webkit-background-clip: text; /* Necessário para compatibilidade com alguns navegadores */
-    color: transparent; /* Oculta a cor padrão do texto */
+    -webkit-background-clip: text;
+    color: transparent;
     margin-top: 10%;
     display:inline-block;
 }
@@ -152,7 +153,7 @@ p#contact{
     margin-bottom: 12px;
     background-image: linear-gradient(90deg,#1E1267,#269EB9);
     background-clip: text;
-    -webkit-background-clip: text; /* Necessário para compatibilidade com alguns navegadores */
+    -webkit-background-clip: text; 
     color: transparent; 
  
 }
