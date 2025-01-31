@@ -81,8 +81,9 @@ img#mobile{
     }
     .linkproj{
         font-size: clamp(12px,5vw,14px);
-         width: 100% !important;
-         margin: auto;
+        width: 100% !important;
+        margin-left: 0px !important;
+        margin-right: 0px !important;
         
     }
     p#ipg{
@@ -104,7 +105,12 @@ img#mobile{
     }
     .instagram-icon{
         font-size: 7.5vw !important;
+        margin-right: 10px;
     }
+    #daesquerda{
+        margin-left: -2% !important;
+    }
+    
 }
 
 h1{
@@ -217,7 +223,7 @@ p#ipg{
     margin-top: 10px;
     font-size: 12px;
     text-align: right;
-    padding-right: 49px;
+    padding-right: 32px;
 }
 .links{
     text-decoration: none;
