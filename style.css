@@ -42,6 +42,9 @@ img#fotod{
 img#mobile{
     display: none;
 }
+h1#mobile{
+    display: none;
+}
 }
 
 @media (max-width:767px){
@@ -108,9 +111,11 @@ img#mobile{
         margin-right: 10px;
     }
     #daesquerda{
-        margin-left: -2% !important;
+        margin-left: -1% !important;
     }
-    
+    h1#typing{
+        display: none;
+    }
 }
 
 h1{
