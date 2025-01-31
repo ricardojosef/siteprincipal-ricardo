@@ -1,6 +1,6 @@
 @font-face {
     font-family: 'Sora-Bold';
-    src: url('Sora-Bold.otf') format('opentype'), url('Sora-Bold.ttf') format('truetype');
+    src: url('Sora-Bold.otf') format('opentype'), url('Sora-Bold.ttf') format('truetype'),url('Sora-Bold.woff') format('woff'),url('Sora-Bold.woff2') format('woff2');
     
 }
 @font-face{
