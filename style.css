@@ -111,18 +111,19 @@ h1#mobile{
     p{
         margin-top: -2% !important;
         text-align: left !important;
-        font-size: clamp(12px,4vw,18px) !important;
-        margin-left: 14px;
+        font-size: clamp(12px,3.5vw,18px) !important;
+        margin-left: 6px;
     }
     img#mobile{
-        max-width: 75%;
+        max-width: 50vw;
+        min-width: 300px ;
         margin-bottom: -13%;
     }
     .linkproj{
-        font-size: clamp(12px,5vw,14px);
-        width: 100% !important;
-        margin-left: 0px !important;
-        margin-right: 0px !important;
+        font-size: clamp(11px,3.7vw,14px)!important;
+        width: 95% !important;
+        margin-left: 5px !important;
+        margin-right: 5px !important;
         
     }
     p#ipg{
