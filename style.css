@@ -280,7 +280,7 @@ p#ipg{
 #cursor {
     font-size: 4.2em;
     color: #269EB9;
-    animation: blinkCursor 0.7s steps(1, end) infinite;
+    animation: blinkCursor 1s steps(1, end) infinite;
     position: relative;
     bottom:7px;
     font-weight: bold;
