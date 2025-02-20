@@ -155,6 +155,9 @@ h1#mobile{
         display: none;
         visibility: hidden;
     }
+    #insta{
+        display: none;
+    }
 }
 
 h1{
