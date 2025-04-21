@@ -12,6 +12,7 @@ body{
     overflow-x: hidden !important;
     margin:0px;
 
+    
 }
 div#main{
     display:flex;
